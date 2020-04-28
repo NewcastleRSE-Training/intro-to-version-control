@@ -15,11 +15,13 @@ By the end of the session, participants will:
 
 
 ## Lesson outline
-* Slides - Git Version Control
-* practical work
-* Slides - Git Branching
-* practical work
-* Slides - Git Repositories
+* Slides - Git Workshop - Introduction
+* Activity 1
+* Slides - Git Version Control - Introduction
+* Activity 2
+* Slides - Git Branching - Working with features 
+* Activity 3
+* Slides - Git Repositories - Sharing code using GitHub
 * practical work
  
 
