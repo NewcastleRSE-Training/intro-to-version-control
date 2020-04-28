@@ -22,6 +22,7 @@ By the end of the session, participants will:
 * Slides - Git Branching - Working with features 
 * Activity 3
 * Slides - Git Repositories - Sharing code using GitHub
-* practical work
+* Work through the 'Creating a GitHub repository' document
+* Activity 4
  
 
