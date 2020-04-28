@@ -6,13 +6,17 @@
 *	be able to commit files to a repository
 *	to understand the concept of pushing to a remote repository
 
-1.	Create a text file called mars.txt
-vi mars.txt
-or
-nano mars.txt
+1.	Create a text file called index.html
+
+nano index.html
 
 2.	Enter the following text in the file:
-Cold and dry, but everything is my favourite colour
+
+<!DOCTYPE html>
+<head>
+</head>
+<body>A simple web page</body>
+</html>
 
 3.	Check the directory
 ls -la
@@ -21,27 +25,27 @@ ls -la
 git status
 
 5.	Start tracking the file
-git add mars.txt
+git add index.html
 
 6.	Check the status
 git status
 
 7.	Commit the file to the repository
-git commit -m "Start notes on Mars as a base"
+git commit -m "Adding index.html"
 
 8.	Check the status
 git status
 
-9.	Add another line to mars.txt
-vi mars.txt
-The two moons may be a problem for Wolfman
+9.	Add another line to index.html between <head> and </head>
+nano index.html
+<title>A first web page</title>
 
 10.	Check the status again
 git status
 
 11.	Commit the file
-git add mars.txt
-git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+git add index.html
+git commit -m "Added title"
 
 12.	Check status
 git status
@@ -50,27 +54,28 @@ git status
 git log
 
 14.	Create a new directory
-mkdir spaceships
+mkdir resources
 
 15.	Check status
 git log
 NOTE: Git does not track directories, it tracks files. So you won’t see the newly created directory. It will only appear after you added some files to the directories.
 
-16.	Create two files, apollo-11 and sputnik-1 in the spaceships directory
+16.	Create two files, text-1 and text-2 in the resources directory
 
-touch spaceships/apollo-11
-touch spaceships/sputnik-1
+touch resources/text-1
+touch resources/text-2
 
 17.	Check status
 git status
 
-You should now be able to see the  spaceships directory as being untracked
+You should now be able to see the  resources directory as being untracked
 18.	You can add all the files in a directory at once by adding the directory
-git add spaceships
+git add resources
 
 19.	Check the status
 git status
-You should now see the that two files in the directory, spaceships, are staged.
+You should now see the that two files in the directory, resources, are staged.
 
 20.	Commit the files
-git commit -m "Add some initial thoughts on spaceships"
+git commit -m "Adding some files to resources"
+

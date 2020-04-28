@@ -33,3 +33,5 @@ ls –la
 
 8.	Check the status
 git status
+
+NB H drive?
