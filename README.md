@@ -26,3 +26,4 @@ By the end of the session, participants will:
 * Activity 4
  
 
+https://etherpad.org/ might be useful
