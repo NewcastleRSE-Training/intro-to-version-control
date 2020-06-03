@@ -12,7 +12,7 @@
 
 1.	View the current branch 
 
-git branch
+`git branch`
 
 2.	Create a new branch
 
