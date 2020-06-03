@@ -10,11 +10,11 @@ Prerequisite: must have completed creating a GitHub account and have created an 
 
 1. 	Check that local repository files have been committed and are ready to be pushed
 
-git status
+`git status`
 
 2. 	Push existing files to the repository
 
-git push
+`git push`
 
 3.	Check the contents of the GitHub repository - the commits should have appeared
 
@@ -30,18 +30,18 @@ git push
 
 9. 	Add, then commit index.html
 
-git add index.html
-git commit -m "Making a change"
+`git add index.html`
+`git commit -m "Making a change"`
 
 10. Attempt to push  - this should fail as we haven't got the changes from GitHub to header.html
 
-git push
+`git push`
 
 11.	Update the header.html file locally by using git pull - the Shell may bring up a file window type :qa to exit
 
-git pull
+`git pull`
 
 12. Merge completed, attempt another push - should show message that your branch is now up to date with origin/master
 
-git push
-git status
+`git push`
+`git status`
